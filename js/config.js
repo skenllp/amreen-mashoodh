@@ -27,8 +27,8 @@ window.WEDDING_CONFIG = {
       father: "Anwar Sadath Kabeer",
       mother: "Fahameeda Anwar",
       grandparents: [
-        "Late Mrs. Umaiva",
-        "Late Mr. Kabeer",
+        "Late Mrs. Umaiva Kabeer",
+        "Late Mr. K Kabeer",
         "Mrs. Iqbalunisa",
         "Mr. Mohammed Ali"
       ],

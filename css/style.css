@@ -432,7 +432,7 @@ textarea:focus-visible {
 .opening__title .opening__names {
   font-family: var(--f-names);
   color: var(--ink-heading);
-  font-size: clamp(1.6rem, 5vw, 2.3rem);
+  font-size: clamp(1.35rem, 4.2vw, 2rem);
   font-weight: 600;
   letter-spacing: .02em;
   margin-top: 6px;
@@ -899,14 +899,22 @@ textarea:focus-visible {
 
 .hero__eyebrow {
   margin-bottom: 18px;
-  color: var(--gold) !important;
-  font-weight: 500;
+  color: #7a5c1e !important;
+  font-weight: 600;
+  letter-spacing: .12em;
+}
+
+@media (max-width: 480px) {
+  .hero__eyebrow {
+    letter-spacing: .08em;
+    font-size: .65rem;
+  }
 }
 
 .hero__names {
   font-family: var(--f-names);
   color: var(--ink-heading);
-  font-size: clamp(2.6rem, 6vw, 4.4rem);
+  font-size: clamp(2.1rem, 5.2vw, 4rem);
   line-height: 1.08;
   font-weight: 600;
 }
@@ -1518,10 +1526,16 @@ textarea:focus-visible {
 
 .relationship-grandparents {
   font-family: var(--f-heading);
-  font-size: 1.02rem;
+  font-size: .92rem;
   font-style: italic;
   color: var(--ink-muted);
   line-height: 1.65;
+}
+
+@media (max-width: 480px) {
+  .relationship-grandparents {
+    font-size: .75rem;
+  }
 }
 
 .relationship-separator {
@@ -1547,10 +1561,16 @@ textarea:focus-visible {
 
 .relationship-parents {
   font-family: var(--f-heading);
-  font-size: 1.2rem;
+  font-size: 1.05rem;
   font-weight: 500;
   color: var(--ink-heading);
   line-height: 1.6;
+}
+
+@media (max-width: 480px) {
+  .relationship-parents {
+    font-size: .78rem;
+  }
 }
 
 /* ---- Divider between cards ---- */
