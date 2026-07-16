@@ -979,10 +979,11 @@ textarea:focus-visible {
 }
 
 .hero__scroll span {
-  font-size: .62rem;
+  font-size: .72rem;
   letter-spacing: .3em;
   text-transform: uppercase;
-  color: var(--ink-muted);
+  color: #7a5c1e;
+  font-weight: 700;
 }
 
 .hero__scroll .line {
