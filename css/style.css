@@ -810,10 +810,15 @@ textarea:focus-visible {
    reveals itself rather than racing the scroll-reveal observer. */
 .hero__eyebrow,
 .hero__names,
-.hero__meta>div,
-.hero__scroll {
+.hero__meta>div {
   opacity: 0;
   transform: translateY(18px);
+}
+
+.hero__scroll {
+  opacity: 0;
+  transform: translateX(-50%) translateY(18px);
+}
   transition: opacity .9s var(--ease-soft), transform .9s var(--ease-soft);
 }
 
@@ -839,10 +844,14 @@ textarea:focus-visible {
 
 .hero--entrance .hero__eyebrow,
 .hero--entrance .hero__names,
-.hero--entrance .hero__meta>div,
-.hero--entrance .hero__scroll {
+.hero--entrance .hero__meta>div {
   opacity: 1;
   transform: translateY(0);
+}
+
+.hero--entrance .hero__scroll {
+  opacity: 1;
+  transform: translateX(-50%) translateY(0);
 }
 
 .hero__crescent {
